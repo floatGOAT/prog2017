@@ -20,20 +20,20 @@ namespace prog2017
             // TestForTesting();
 
             /* WinForms interface testing */
-             Application.Run(new DialogWindow());
+            // Application.Run(new DialogWindow());
 
             /* Binary search in array. Tests: */
-            /*
+            
             BinarySearch.SimpleTest();
             BinarySearch.TestNegativeNumbers();
             BinarySearch.TestNonExistentElement();
             BinarySearch.TestRepeatingNumbers();
             BinarySearch.TestEmptyArray();
             BinarySearch.StressTest();
-            */
+            
 
             /* Provide pause for checking results of programms' work */
-            // Console.ReadKey();
+            Console.ReadKey();
 
         }
 
